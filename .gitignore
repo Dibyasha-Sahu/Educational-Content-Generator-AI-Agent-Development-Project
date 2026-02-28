@@ -1,0 +1,10 @@
+# Ignore database files
+*.db
+study_data.db
+
+# Ignore Python virtual environments
+.venv/
+__pycache__/
+
+# Ignore API keys / environment variables
+.env
