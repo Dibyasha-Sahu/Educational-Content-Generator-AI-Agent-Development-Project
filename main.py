@@ -207,7 +207,7 @@ if not st.session_state.logged_in:
             else: st.error("Username Taken")
 else:
     # --- 7. MAIN APP ---
-    GOOGLE_API_KEY = "AIzaSyC67V2rjnReFbB6X9Q3hUkxk2ygUAxhbTc"
+    GOOGLE_API_KEY = "Ur API KEY HERE"
     genai.configure(api_key=GOOGLE_API_KEY)
     
     # EXACT MODEL FROM YOUR ORIGINAL LOGS
